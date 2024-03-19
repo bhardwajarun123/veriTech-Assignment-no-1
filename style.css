@@ -242,3 +242,20 @@ left: 310px;
 position: relative;
 left: 730px;
 }
+
+
+@media screen and (max-width:480px) {
+    @media screen and (max-width: 768px) {
+        .grid-container {
+            flex-direction: column;
+        }
+
+        .card {
+            margin: 10px auto;
+        }
+
+        footer #main-style {
+            margin-left: 0;
+        }
+    }
+}
